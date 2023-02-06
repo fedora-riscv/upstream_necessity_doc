@@ -1,0 +1,8 @@
+| package               | upstream commit                          | riscv commit                             | repo URL                                              | upstream URL                                             | info                             | Need upstream |
+| --------------------- | ---------------------------------------- | ---------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------- | -------------------------------- | ------------- |
+| audit                 | ddb8a3047c4d5fc7a0a40d8d87a61d7cf88caf0f | fe340f685a25443568ea670b26a750f296b6d190 | https://github.com/fedora-riscv/audit/                | https://src.fedoraproject.org/rpms/audit                 | David'patch                      | Y             |
+| python-sphinx-gallery | 345379fb11509d83cda2270fc3ed972732849fb1 | 1b9527d7d602bb016f15db004e65b5800e7b049e | https://github.com/fedora-riscv/python-sphinx-gallery | https://src.fedoraproject.org/rpms/python-sphinx-gallery | Bootstrap for riscv64 python3.11 | Y             |
+| wxGTK                 | ff243c8da16fd8d59609ea3b8f9df321b0527e44 | 9fb40ebc1ed6f80cd66f36953621edf1443072fa | https://github.com/fedora-riscv/wxGTK/                | https://src.fedoraproject.org/rpms/wxGTK                 | Disable tests for riscv64.       | N             |
+| uncrustify            | a59be0ff083fd4b2e18ba9371009b77d1bcec4b5 | 098c497ee9dad5f5048290ecce596d909235118a | https://github.com/fedora-riscv/uncrustify/           | https://src.fedoraproject.org/rpms/uncrustify            | Fix build on riscv64.            | Y             |
+
+
